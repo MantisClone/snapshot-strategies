@@ -10,11 +10,12 @@
         "symbol": "MULTI",
         "strategies": [
           {
-            "name": "balancer",
+            "name": "staked-balancer",
             "params": {
-              "symbol": "BANK",
-              "address": "0xDB7Cb471dd0b49b29CAB4a1C14d070f27216a0Ab",
-              "decimals": 18
+              "tokenAddress": "0xdb7cb471dd0b49b29cab4a1c14d070f27216a0ab",
+              "balancerPoolId": "0x5a6ae1fd70d04ba4a279fc219dfabc53825cb01d00020000000000000000020e",
+              "stakingContract": "0xc48c3a19bc79b9d6ac4391723041584114a4272d",
+              "symbol": "BANK"
             },
             "network": 137
           }
